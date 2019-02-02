@@ -12,6 +12,15 @@ body {
     // margin: 0;
 }
 
+.clearfix {
+    clear: both;
+
+    &::after {
+        content:    "";
+        display:    table;
+        clear:      both;
+    }
+}
 
 .section-title {
     color: #2ddf5c;
