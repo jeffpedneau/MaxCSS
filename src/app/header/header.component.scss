@@ -1,4 +1,9 @@
 .main-header {
+    position: fixed;
+    top:        0;
+    left:       0;
+    z-index:    100; // not strictly necessary since we moved the body down 
+
     background-color: #2ddf5c;
 
     width:      100%;

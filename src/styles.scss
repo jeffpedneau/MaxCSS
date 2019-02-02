@@ -10,6 +10,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     // font-size: 90%;
     // margin: 0;
+
+    // This moves the body out of the way of the header component that is at the top.
+    margin-top: 42px;
 }
 
 .clearfix {
