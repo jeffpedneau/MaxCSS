@@ -1,27 +1,6 @@
-<header class="main-header">
-  <div>
-    <a class="main-header__brand" routerLink="/">uHost</a>
-  </div>
-  <nav class="main-nav">
-    <ul class="main-nav__items">
-      <li class="main-nav__item"><a routerLink="/packages">Packages</a></li>
-      <li class="main-nav__item"><a routerLink="/customers">Customers</a></li>
-      <li class="main-nav__item main-nav__item--cta"><a routerLink="/starthost">Start Hosting</a></li>
-    </ul>
-  </nav>
-
-</header>
-
+<app-header></app-header>
 <main>
-  <section id="product-overview">
-      <h1>Get the freedom you deserve.</h1>
-  </section>
-  <section id="plans">
-      <app-plans></app-plans>
-  </section>
-
-  <section id="key-features">
-      <app-stick-around></app-stick-around>
-  </section>
-
+  <app-overview></app-overview>
+  <app-plans></app-plans>
+  <app-stick-around></app-stick-around>
 </main>
