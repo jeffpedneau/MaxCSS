@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PlansComponent } from './plans/plans.component';
+import { StickAroundComponent } from './stick-around/stick-around.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PlansComponent,
+    StickAroundComponent
   ],
   imports: [
     BrowserModule,

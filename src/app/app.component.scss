@@ -29,10 +29,6 @@ main {
     // ----------------------------------------------------------------------
     .plans {
 
-        .section-title {
-            color: #2ddf5c;
-        }
-
         // h1 {
         //     font-family: sans-serif;
         // }
@@ -42,8 +38,13 @@ main {
             font-size: 20px;
             
         }
-        
-        
+    }
+
+    // ----------------------------------------------------------------------
+    #key-features {
+        background-color: #ff1b68;
+        margin-top: 80px;
+        padding: 16px;
     }
 }
         
@@ -71,7 +72,7 @@ main {
     .main-nav {
         display:        inline-block;
         text-align:     right;
-        width:          calc(100% - 60px);
+        width:          calc(100% - 70px);
         vertical-align: middle;
 
         &__items {
