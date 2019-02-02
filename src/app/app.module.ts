@@ -8,6 +8,10 @@ import { StickAroundComponent } from './stick-around/stick-around.component';
 import { OverviewComponent } from './overview/overview.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { PackagesComponent } from './packages/packages.component';
+import { CustomersComponent } from './customers/customers.component';
+import { StartHostingComponent } from './start-hosting/start-hosting.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { FooterComponent } from './footer/footer.component';
     StickAroundComponent,
     OverviewComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    PackagesComponent,
+    CustomersComponent,
+    StartHostingComponent
   ],
   imports: [
     BrowserModule,
