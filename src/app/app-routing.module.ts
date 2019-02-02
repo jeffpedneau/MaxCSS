@@ -8,10 +8,10 @@ import { StartHostingComponent } from './start-hosting/start-hosting.component';
 const routes: Routes = [
   { path: '',  redirectTo: '/home', pathMatch: 'full' },
 
-  { path: 'home',     component: HomeComponent },
-  { path: 'packages', component: PackagesComponent },
-  { path: 'customers', component: CustomersComponent },
-  { path: 'starthost', component: StartHostingComponent },
+  { path: 'home',       component: HomeComponent },
+  { path: 'packages',   component: PackagesComponent },
+  { path: 'customers',  component: CustomersComponent },
+  { path: 'starthost',  component: StartHostingComponent },
 
 
 ];
