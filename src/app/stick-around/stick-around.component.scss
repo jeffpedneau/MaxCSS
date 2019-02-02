@@ -1,9 +1,43 @@
-#key-features {
-    background-color: #ff1b68;
-    margin-top: 80px;
-    padding: 16px;
-}
-
+// Override of application-wide section-title style.
 .section-title {
     color: white;
+    margin-bottom: 16px;
+}
+
+// ----------------------------------------------------------------------
+#key-features {
+    background-color: #ff1b68;
+    margin-top:         80px;
+    padding:            16px;
+   
+}
+
+// ----------------------------------------------------------------------
+.key-features__list {
+    list-style: none;
+    text-align: center;
+}
+
+
+// ----------------------------------------------------------------------
+.key-feature {
+    display:        inline-block;
+    width:          30%;
+    vertical-align: top;
+    
+    &__image {
+        background-color: #ffcede;
+        height:             128px;
+        width:              128px;
+        border:             2px solid #424242;
+        border-radius:      50%;
+        margin:             0 auto;
+    }
+
+    &__description {
+        text-align: center;
+        font-weight: bold;
+        color:          white;
+        font-size:      20px;
+    }
 }
