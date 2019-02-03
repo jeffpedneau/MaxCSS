@@ -26,7 +26,7 @@ import { ModalComponent } from './modal/modal.component';
     PackagesComponent,
     CustomersComponent,
     StartHostingComponent,
-    ModalComponent
+    ModalComponent,
   ],
   imports: [
     BrowserModule,
