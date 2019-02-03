@@ -7,7 +7,7 @@ $border: 4px solid $green;
 }
 
 main {
-    padding-top: 12px;
+    padding-top: .75rem;
 }
 
 .background {
@@ -22,7 +22,7 @@ main {
 
 .package {
     width:      80%;
-    margin:     16px 0;
+    margin:     1rem 0;
     border:     $border;
     border-left: none;
     // transition: width 0.2s;
@@ -37,23 +37,23 @@ main {
         text-decoration: none;
         color:      inherit;
         display:    block;      // <a> is normally inline
-        padding:    32px;
+        padding:    2rem;
     }
 
     &__title {
-        padding-bottom: 8px;
+        padding-bottom: .5rem;
 
     }
 
     &__subtitle {
         color: #979797;
-        padding-bottom: 8px;
+        padding-bottom: .5rem;
     }
 
     &__info {
-        padding:    16px;
+        padding:    1rem;
         border:     1px solid $green;
-        font-size:  20px;
+        font-size:  1.25rem;
         color:      $green;
         background-color: white;
     }
@@ -62,9 +62,9 @@ main {
         position:   absolute;
         top:        0;
         right:      0;
-        margin:     20px;
+        margin:     1.25rem;
         color:      white;
-        padding:    8px;
+        padding:    .5rem;
         background-color: #ff5454;
         font-size:  80%;
         border-radius: 8px;
@@ -89,7 +89,7 @@ main {
 }
 
 #premium {
-    margin-top: 280px;
+    margin-top: 17.5rem;
     background-color: rgba(14, 79, 31, 0.95);
 
     .package__title {

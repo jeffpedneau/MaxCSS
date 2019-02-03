@@ -1,6 +1,6 @@
 .main-footer {
-    margin-top:         48px;
-    padding:            32px;
+    margin-top:         4rem;
+    padding:            2rem;
     background-color:   black;
     
     &__links {
@@ -11,7 +11,7 @@
     &__link {
         color:      white;
         display:    inline-block;
-        margin:     0 16px;
+        margin:     0 1rem;
 
         a {
             color: white;

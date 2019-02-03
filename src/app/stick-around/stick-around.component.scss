@@ -1,14 +1,14 @@
 // Override of application-wide section-title style.
 .section-title {
     color: white;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 // ----------------------------------------------------------------------
 #key-features {
     background-color: #ff1b68;
-    margin-top:         80px;
-    padding:            16px;
+    margin-top:         5rem;
+    padding:            1rem;
    
 }
 
@@ -35,9 +35,9 @@
     }
 
     &__description {
-        text-align: center;
-        font-weight: bold;
+        text-align:     center;
+        font-weight:    bold;
         color:          white;
-        font-size:      20px;
+        font-size:      1.25rem;
     }
 }
