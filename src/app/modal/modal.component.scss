@@ -1,0 +1,67 @@
+.popup {
+    display: none;
+    // position: relative;
+}
+
+.backdrop {
+    position:   absolute;
+    // display:    none;
+    top:        0;
+    left:       0;
+    z-index:    100;
+    width:      100vw;
+    height:     100vh;
+    background-color: rgba(black, 0.5);
+}
+
+
+.modal {
+    position:   fixed;
+    // display: none;
+    z-index:    200;
+    top:        20%;
+    left:       30%;
+    width:      40%;
+    background: white;
+    padding:    1rem;
+    border:     1px solid #ccc;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    
+    &__title {
+        text-align: center;
+        margin: 0 0 1rem 0;
+    }
+    
+    &__actions {
+        text-align: center;
+    }
+    
+    &__action {
+        border:         1px solid #0e4f1f;
+        background:     #0e4f1f;
+        text-decoration: none;
+        color:          white;
+        font:           inherit;
+        padding:        0.5rem 1rem;
+        cursor:         pointer;
+        margin-left:    .2rem;
+
+        &:hover,
+        &:active {
+          background: #2ddf5c;
+          border-color: #2ddf5c;
+        }
+
+        &--negative {
+            background: red;
+            border-color: red;
+            
+            &:hover,
+            &:active {
+                background: #ff5454;
+                border-color: #ff5454;
+            }          
+        }
+
+    }
+}

@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { PackagesComponent } from './packages/packages.component';
 import { CustomersComponent } from './customers/customers.component';
 import { StartHostingComponent } from './start-hosting/start-hosting.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { StartHostingComponent } from './start-hosting/start-hosting.component';
     HomeComponent,
     PackagesComponent,
     CustomersComponent,
-    StartHostingComponent
+    StartHostingComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
