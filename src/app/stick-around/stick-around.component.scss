@@ -7,9 +7,12 @@
 // ----------------------------------------------------------------------
 #key-features {
     background-color: #ff1b68;
-    margin-top:         5rem;
+    margin-top:         1rem;
     padding:            1rem;
-   
+
+    @media (min-width: 40rem) {
+        margin-top:     5rem;
+    }    
 }
 
 // ----------------------------------------------------------------------
@@ -21,10 +24,15 @@
 
 // ----------------------------------------------------------------------
 .key-feature {
-    display:        inline-block;
-    width:          30%;
-    vertical-align: top;
+    width:          100%;
     
+    @media (min-width: 40rem) {
+        display:        inline-block;
+        max-width:      25rem;
+        width:          30%;
+        vertical-align: top;
+    }
+
     &__image {
         background-color: #ffcede;
         height:             128px;
@@ -32,6 +40,17 @@
         border:             2px solid #424242;
         border-radius:      50%;
         margin:             0 auto;
+
+        // @media (min-width: 40rem) {
+        // }
+
+        svg {
+            margin-top:  1rem;
+            margin-left: .5rem;
+
+            height: 65%;
+            width:  65%;
+        }
     }
 
     &__description {

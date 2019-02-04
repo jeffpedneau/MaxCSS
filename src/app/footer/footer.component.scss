@@ -1,7 +1,12 @@
 .main-footer {
-    margin-top:         4rem;
-    padding:            2rem;
+    margin-top:         1rem;
+    padding:            1rem;
     background-color:   black;
+
+    @media (min-width: 40rem) {
+        padding:        2rem;
+        margin-top:     4rem;
+    }
     
     &__links {
         list-style: none;
@@ -10,8 +15,13 @@
     
     &__link {
         color:      white;
-        display:    inline-block;
-        margin:     0 1rem;
+        display:    block;
+        margin:     1rem 0;
+
+        @media (min-width: 40rem) {
+            display: inline-block;
+            margin:     0 1rem;
+        }
 
         a {
             color: white;

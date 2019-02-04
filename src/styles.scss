@@ -19,6 +19,14 @@ body {
     margin-top: 2.625rem;
 }
 
+main {
+    min-height: calc(100vh - 12.5rem);
+
+    @media (min-width: 40px) {
+        min-height: calc(100vh - 12rem);
+    }
+}
+
 .clearfix {
     clear: both;
 

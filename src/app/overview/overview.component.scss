@@ -1,8 +1,8 @@
 #product-overview {
     // background: url("https://ak9.picdn.net/shutterstock/videos/20869759/thumb/4.jpg");
     background: url('src/assets/freedom.jpg');
-    
-    // background-image: linear-gradient(red, transparent);
+
+    // background -image: linear-gradient(red, transparent);
 
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,19 +20,30 @@
     padding: .6rem;;
     //margin: 1.25rem;
     
-    width: 100vw;
+    // width: 100vw;
     // height: 428px;
     height: 60vh;
 
     position: relative;
+
+    @media (min-width: 40rem) and (min-height: 40rem) {
+        height: 70vh;
+    }
     
-    
+
     h1 {
         color: white;
         font-family: 'Anton', sans-serif;
 
-        position: absolute;
-        top:    5%;
-        right:  5%;
+        position:   absolute;
+        top:        5%;
+        right:      5%;
+        font-size:  1.6rem;
+
+        @media (min-width: 40rem) {
+            top: 3%;
+            font-size: 2rem;
+        }
     }
+
 }
