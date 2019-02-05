@@ -42,3 +42,24 @@ main {
     text-align: center;
     padding: 8px 0;
 }
+
+.button {
+    background-color: #0e4f1f;
+    border:         1.5px solid #0e4f1f;
+    color:          white;
+    font:           inherit;
+    font-weight:    bold;
+    padding:        .5rem;
+    border-radius:  8px;
+    cursor:         pointer;
+
+    &:hover {
+        background-color: white;
+        color: #0e4f1f;
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+}

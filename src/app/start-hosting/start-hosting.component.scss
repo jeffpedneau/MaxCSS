@@ -1,0 +1,43 @@
+.signup-page {
+    padding-top: 1rem;
+}
+
+.signup-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #ff5454;
+}
+
+.signup-form {
+    padding: 1rem;
+
+    label {
+        font-weight: bold;
+    }
+
+    @media (min-width: 40rem) {
+        margin: auto;
+        width: 25rem;
+    }
+}
+
+label,
+input,
+select {
+    display: block;
+    margin-top: .75rem;
+    width: 100%;
+}
+
+input[id*="terms"] {
+    &,              // the checkbox
+    & + label {     // and the label immediately to the right
+        display: inline-block;
+        width: auto;
+    }
+}
+
+button[type="submit"] {
+    display: block;
+    margin-top: 1rem;
+}
