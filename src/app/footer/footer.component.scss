@@ -11,16 +11,24 @@
     &__links {
         list-style: none;
         text-align: center;
+
+        display:        flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @media (min-width: 40rem) {
+            flex-direction: row;
+            justify-content: center;
+        }
+
     }
     
     &__link {
-        color:      white;
-        display:    block;
-        margin:     1rem 0;
+        color:  white;
+        margin: .5rem 0;
 
         @media (min-width: 40rem) {
-            display: inline-block;
-            margin:     0 1rem;
+            margin: 0 1rem;
         }
 
         a {

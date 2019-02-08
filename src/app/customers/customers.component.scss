@@ -6,6 +6,9 @@
     // margin: 4rem 0;
 
     @media (min-width: 40rem) {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
         
     }    
 
@@ -22,10 +25,8 @@
         width: 100%;
 
         @media (min-width: 40rem) {
-            display: inline-block;
             max-width: 580px;
             min-width: 300px;
-            vertical-align: middle;
             width: 65%;
             box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3);
         }    
@@ -42,8 +43,6 @@
         width: 100%;
         
         @media (min-width: 40rem) {
-            display: inline-block;
-            vertical-align: middle;
             width: 30%;
         }
     }

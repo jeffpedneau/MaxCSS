@@ -1,8 +1,15 @@
 #product-overview {
-    // background: url("https://ak9.picdn.net/shutterstock/videos/20869759/thumb/4.jpg");
-    background: url('src/assets/freedom.jpg');
 
-    // background -image: linear-gradient(red, transparent);
+    $picture: if(true, 
+        'src/assets/freedom.jpg',
+        'https://ak9.picdn.net/shutterstock/videos/20869759/thumb/4.jpg'
+        );
+
+    background: url($picture);
+
+    // $isValid: false;
+    // $color: if($isValid, green, red);
+    // background-image: linear-gradient($color, transparent);
 
     background-size: cover;
     background-repeat: no-repeat;
